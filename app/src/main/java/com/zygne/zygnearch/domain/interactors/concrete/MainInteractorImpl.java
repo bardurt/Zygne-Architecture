@@ -26,7 +26,7 @@ public class MainInteractorImpl extends AbstractInteractor implements
             e.printStackTrace();
         }
 
-        callback.onMainCompleted();
+        mainThread.post(()-> callback.onMainCompleted());
 
     }
 }
