@@ -17,6 +17,6 @@ allprojects {
   Step 2. Add the dependency
   ```
   dependencies {
-	        implementation 'com.github.ZygneApps:Zygne-Architecture:Tag'
+	        implementation 'com.github.ZygneApps:Zygne-Architecture:1.0.1'
 	}
   ```
